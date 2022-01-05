@@ -1,0 +1,360 @@
+* {
+  font-family: "Montserrat", Verdana;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+}
+
+.seccion-header-main {
+  background-color: #ffebb5;
+  padding: 20px 20px 0 20px;
+  height: 667px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 900px) {
+  .seccion-header-main {
+    height: 74vh;
+  }
+}
+
+.contenedor-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+@media (min-width: 900px) {
+  .contenedor-header {
+    height: 70px;
+  }
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin: auto 0;
+}
+
+.menu {
+  width: 80px;
+  height: 80px;
+}
+@media (min-width: 900px) {
+  .menu {
+    display: none;
+  }
+}
+
+.menu-navegacion {
+  display: none;
+}
+@media (min-width: 900px) {
+  .menu-navegacion {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+.header-quien-soy,
+.header-servicios,
+.header-contacto {
+}
+@media (min-width: 900px) {
+  .header-quien-soy,
+  .header-servicios,
+  .header-contacto {
+    border-bottom: solid 1px #f47133;
+  }
+}
+
+.contenedor-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 900px) {
+  .contenedor-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+.bienvenida {
+  text-align: center;
+  margin-bottom: 65px;
+  font-size: 49px;
+  color: #f47133;
+}
+@media (min-width: 900px) {
+  .bienvenida {
+    width: 470px;
+    font-size: 70px;
+  }
+}
+
+.mi-foto {
+  width: 300px;
+  height: 300px;
+}
+@media (min-width: 900px) {
+  .mi-foto {
+    width: 370px;
+    height: 370px;
+  }
+}
+
+.seccion-presentacion {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 667px;
+  background-color: #063831;
+  color: #ffebb5;
+}
+@media (min-width: 900px) {
+  .seccion-presentacion {
+    flex-direction: row-reverse;
+    height: 470px;
+    gap: 20px;
+    padding: 20px;
+  }
+}
+
+.soy-daniela {
+  text-align: center;
+  margin: 25px;
+}
+@media (min-width: 900px) {
+  .soy-daniela {
+    text-align: left;
+    margin: 25px;
+  }
+}
+
+.sobre-mi {
+  margin: 10px 25px;
+}
+
+.texto {
+}
+@media (min-width: 900px) {
+  .texto {
+    width: 300px;
+  }
+}
+
+.ok {
+  width: 190px;
+  height: auto;
+  margin-top: 25px;
+}
+@media (min-width: 900px) {
+  .ok {
+    margin-top: 0;
+  }
+}
+
+.seccion-servicios {
+  background-color: #ffebb5;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 900px) {
+  .seccion-servicios {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+.mis-servicios {
+  margin-top: 45px;
+}
+@media (min-width: 900px) {
+  .mis-servicios {
+    margin-bottom: 10px;
+  }
+}
+
+.contenedor-mis-servicios {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+@media (min-width: 900px) {
+  .contenedor-mis-servicios {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 44px;
+  }
+}
+
+.imagen-servicio {
+  width: 170px;
+  height: auto;
+}
+
+.titulo-servicio {
+}
+
+.descripcion-servicio {
+  margin-bottom: 30px;
+}
+
+.seccion-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  height: 667px;
+  background-color: #d6814a;
+}
+
+.contacto {
+  text-align: center;
+}
+@media (min-width: 900px) {
+  .contacto {
+    display: inline;
+    margin: 0;
+  }
+}
+
+.contenedor-form {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+}
+@media (min-width: 900px) {
+  .contenedor-form {
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+@media (min-width: 900px) {
+  .form {
+    width: 50%;
+  }
+}
+
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input-nombre, .input-email {
+  width: 100%;
+  height: 45px;
+}
+
+.input-mensaje{
+  width: 100%;
+  height: 90px;
+}
+
+.boton {
+  height: 50px;
+  font-family: "Montserrat", Verdana;
+  margin-top: 40px;
+}
+
+.seccion-footer {
+  background-color: #ffebb5;
+  height: 493px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+@media (min-width: 900px) {
+  .seccion-footer {
+    height: 493px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.imagen-logo-footer {
+  width: 120px;
+  height: 120px;
+  display: block;
+}
+
+.derechos-reservados {
+}
+
+.redes-sociales {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px auto auto auto;
+}
+
+.red-social {
+  margin-top: 25px;
+  display: flex;
+  align-content: center;
+}
+
+.logo-linkedin,
+.logo-github {
+  width: 30px;
+  height: 30px;
+  display: inline;
+  margin: auto 0;
+}
+
+.linkedin,
+.github {
+  display: inline;
+  margin: auto 8px;
+}
+
+.soy-daniela,
+.mis-servicios,
+.contacto {
+  font-size: 22px;
+}
+@media (min-width: 900px) {
+  .soy-daniela,
+  .mis-servicios,
+  .contacto {
+    font-size: 32px;
+  }
+}
