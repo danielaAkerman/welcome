@@ -18,7 +18,7 @@ body {
 }
 @media (min-width: 900px) {
   .seccion-header-main {
-    height: 74vh;
+    height: 500px;
   }
 }
 
@@ -183,6 +183,7 @@ body {
 
 .mis-servicios {
   margin-top: 45px;
+  margin-bottom: 0;
 }
 @media (min-width: 900px) {
   .mis-servicios {
